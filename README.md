@@ -23,8 +23,31 @@ $ npm run dev
 
 平台打包是用的webpack：https://www.webpackjs.com/
 
+平台的样式风格是参照的腾讯云。
+
 三、目录结构
 之前老大架构的项目目录结构我觉得很好，但是他是针对大型网站做的，我这个项目只是一个小的demo，不需要做的那么复杂，所以在目录结构上，我根据自己的需求弄得简单些：
+
+|-- build             -- 构建目录
+|-- config            -- 构建配置目录
+|-- src               -- 项目源文件
+   |-- assets         -- 项目js、css、img资源
+   |-- components 
+       |-- common     -- 项目公共模块(顶部、常用服务列表、左边导航栏、小模块导航栏)
+       |-- module
+           |-- module1
+               |-- div1
+                   ...
+               |-- divn
+               |-- router
+               ...
+           |-- module n
+           |-- router
+|-- static            -- 项目静态资源目录
+|-- index.html        -- 项目初始页面
+
+四、项目开发中遇到的难点
+
 
 
 
